@@ -1,0 +1,80 @@
+# Node
+node_modules/
+
+# Al
+.alpackages/
+*.app
+rad.json
+
+# User-specific files
+*.suo
+*.user
+*.sln.docstates
+
+# Build results
+ControlAddIn/addin.js
+ControlAddIn/addin.js.map
+ControlAddIn/stylesheet.css
+ControlAddIn/stylesheet.css.map
+
+[Dd]ebug/
+[Rr]elease/
+x64/
+[Bb]in/
+[Oo]bj/
+
+# =========================
+# Windows detritus
+# =========================
+
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Folder config file
+Desktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# Mac desktop service store files
+.DS_Store
+
+# ===================================================
+# Exclude F# project specific directories and files
+# ===================================================
+
+# NuGet Packages Directory
+packages/
+
+# Generated documentation folder
+docs/output/
+
+# Temp folder used for publishing docs
+temp*/
+
+# Test results produced by build
+TestResults.xml
+TestResult.xml
+
+# Nuget outputs
+nuget/*.nupkg
+release.cmd
+release.sh
+localpackages/
+paket-files
+*.orig
+docs/content/license.md
+docs/content/release-notes.md
+.fake
+docs/tools/FSharp.Formatting.svclog
+.ionide.debug
+*.bak
+project.lock.json
+.ionide
+
+.fable
+
+
+.ssl/localhost.pem
+.ssl/localhost-key.pem

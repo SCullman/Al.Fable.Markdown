@@ -1,0 +1,7 @@
+source https://nuget.org/api/v2
+storage:none
+
+nuget Fable.Elmish.React
+nuget Fable.Elmish.HMR
+
+github MangelMaxime/fulma-demo src/Bindings/Showdown.fs

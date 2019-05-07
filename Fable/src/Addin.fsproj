@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="..\..\paket-files\MangelMaxime\fulma-demo\src\Bindings\Showdown.fs">
+      <Paket>True</Paket>
+      <Link>paket-files/Showdown.fs</Link>
+    </Compile>
+    <Compile Include="BusinessCentral.fs" />
+    <Compile Include="Addin.fs" />
+  </ItemGroup>
+  <Import Project="..\..\.paket\Paket.Restore.targets" />
+</Project>

@@ -1,0 +1,4 @@
+nuget Fable.Elmish.React
+nuget Fable.Elmish.HMR
+
+File: Showdown.fs

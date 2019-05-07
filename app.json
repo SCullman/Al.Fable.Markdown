@@ -1,0 +1,26 @@
+{
+  "id": "b971a043-414e-480e-8a3a-57a35ae27630",
+  "name": "Al.Fable.Markdown",
+  "publisher": "Default publisher",
+  "version": "1.0.0.0",
+  "brief": "",
+  "description": "",
+  "privacyStatement": "",
+  "EULA": "",
+  "help": "",
+  "url": "",
+  "logo": "",
+  "dependencies": [],
+  "screenshots": [],
+  "platform": "14.0.0.0",
+  "application": "14.0.0.0",
+  "idRanges": [
+    {
+      "from": 50100,
+      "to": 50149
+    }
+  ],
+  "contextSensitiveHelpUrl": "https://Al.Fable.Markdown.com/help/",
+  "showMyCode": true,
+  "runtime": "3.0"
+}

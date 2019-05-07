@@ -1,0 +1,36 @@
+{
+  "name": "al-fable-markdown",
+  "scripts": {
+    "build": "webpack -p",
+    "start": "webpack-dev-server --https --cert ./.ssl/localhost.pem --key ./.ssl/localhost-key.pem"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.4.4",
+    "@babel/plugin-transform-runtime": "^7.4.4",
+    "@babel/preset-env": "^7.4.4",
+    "babel-loader": "^8.0.5",
+    "copy-webpack-plugin": "^5.0.3",
+    "core-js": "^3.0.1",
+    "css-loader": "^2.1.1",
+    "fable-compiler": "^2.3.5",
+    "fable-loader": "^2.1.6",
+    "html-webpack-plugin": "^3.2.0",
+    "loglevel": "^1.6.1",
+    "mini-css-extract-plugin": "^0.6.0",
+    "remotedev": "^0.2.9",
+    "sass": "^1.19.0",
+    "sass-loader": "^7.1.0",
+    "style-loader": "^0.23.1",
+    "webpack": "^4.30.0",
+    "webpack-cli": "^3.3.1",
+    "webpack-dev-server": "^3.3.1"
+  },
+  "dependencies": {
+    "@babel/polyfill": "^7.4.4",
+    "@babel/runtime": "^7.4.4",
+    "react": "^16.8.5",
+    "react-dom": "^16.8.5",
+    "showdown": "^1.9.0",
+    "showdown-xss-filter": "^0.2.0"
+  }
+}
