@@ -1,5 +1,5 @@
-# Markdown - ControlAddin for BusinessCentral 
-This simple ControlAddin enables the input of formatted text in Markdown with immediate preview as html. Each change is also available again within Business Control.  
+# Markdown - ControlAddin for Business Central 
+This simple ControlAddin enables the input of formatted text in Markdown with immediate preview as html. Each change is also available again within Business Central.  
 Instead of using vanilla Javascript, the development happens in F# using Fable and Elmish and of course AL.
 
 ## Setup environment
@@ -18,7 +18,7 @@ Reqiured Extensions
    * AL Language
    * **Ionide** http://ionide.io  
 
- Optional   
+ Optional / recommended  
    * CRS AL Language Extension 
    * AL Code Outline
    * fantomas-fmt
@@ -29,8 +29,9 @@ Reqiured Extensions
 
 Clone Repository and open it with VS Code.
 ```
-git clone x
-code x
+git clone https://github.com/SCullman/Al.Fable.Markdown
+cd Al.Fable.Markdown
+code .
 ```
 
 ### Dependencies
