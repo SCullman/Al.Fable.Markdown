@@ -5,9 +5,9 @@
     "start": "webpack-dev-server --https --cert ./.ssl/localhost.pem --key ./.ssl/localhost-key.pem"
   },
   "devDependencies": {
-    "@babel/core": "^7.4.4",
-    "@babel/plugin-transform-runtime": "^7.4.4",
-    "@babel/preset-env": "^7.4.4",
+    "@babel/core": "^7.6.2",
+    "@babel/plugin-transform-runtime": "^7.6.2",
+    "@babel/preset-env": "^7.6.2",
     "babel-loader": "^8.0.5",
     "copy-webpack-plugin": "^5.0.3",
     "core-js": "^3.0.1",
@@ -26,8 +26,6 @@
     "webpack-dev-server": "^3.3.1"
   },
   "dependencies": {
-    "@babel/polyfill": "^7.4.4",
-    "@babel/runtime": "^7.4.4",
     "react": "^16.8.5",
     "react-dom": "^16.8.5",
     "showdown": "^1.9.0",

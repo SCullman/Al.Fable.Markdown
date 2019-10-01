@@ -75,6 +75,10 @@ project.lock.json
 
 .fable
 
-
+# SSL Key for development
 .ssl/localhost.pem
 .ssl/localhost-key.pem
+
+# other
+.paket/
+.vscode/
